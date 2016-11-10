@@ -1,0 +1,6 @@
+# git ignore contents
+# ignore copy files
+  *~
+# ignore compiling files
+  *.[oa]   # *.o or *.a
+
