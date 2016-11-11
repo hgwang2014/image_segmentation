@@ -6,4 +6,4 @@ this project is for grid-based feature extraction.
 
 until now, we builded two branches, such as 'child' and 'new'.
 
-then we deleted the branch 'new'.
+then we deleted the branch 'new' and 'child' and created a new branch 'slave'.
