@@ -15,19 +15,14 @@ namespace cv
 {
     struct ImageFeatures
     {
-        int img_idx;
-        Size img_size;
         vector<KeyPoint> keypoints;
         Mat descriptors;
     };
 
     struct MatchesInfo
     {
-        int src_img_idx, dst_img_idx;
         vector<DMatch> matches;
         vector<DMatch> good_matches;
-        vector<uchar> inliers_mask;
-        int num_inliers;
         Mat H;
     };
 }
